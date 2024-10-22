@@ -10,3 +10,5 @@ bien_chuoi_ky_tu = str(gia_tri_nhap) #ép kiểu ký tự
 
 bien_boolean = bool(gia_tri_nhap) #ép kiểu boolean
 print(bien_boolean) #Khi ép kiểu boolean cho kiểu ký tự luôn trả về True
+
+
