@@ -1,12 +1,10 @@
-#bai1
-nam = float(input("Nhập năm:"))
-if nam > 0:
-   if (nam % 4 == 0 and nam % 100 != 0 ):
-      print(f"nam do la nam nhuan" )
-   elif (nam % 4 == 0 and nam % 400 == 0 ):
-      print(f"nam do la nam nhuan:")
-   elif (nam % 4 == 0 and nam % 100 == 0):
-      print("nam do ko phai la nam nhuan: ")
-else:
-    print(f"ko ton tai")
-print("ket thuc")
+
+def so(N):
+   if N == 1:
+        return "1"
+   for i in range (2,10):
+      if N % i == 0:
+         a = i
+         b = N // i
+         return f"{a}*{so(b)}" 
+print(so(18))
