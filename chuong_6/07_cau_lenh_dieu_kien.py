@@ -45,4 +45,21 @@ else:
 print("Ket thuc chuong trinh")
 
 
-            
+#x thuoc kgoang (2, 8] hop [14, 24) 
+#and (và)
+#or (hoặc) 
+
+c = 1
+(c > 2 and c <= 8) #(2, 8]
+(c >= 14 and c < 24) #[14, 24)         
+
+(c > 2 and c <= 8) or (c >= 14 and c < 24) # (2, 8] hop [14, 24)
+if (c > 2 and c <= 8) or (c >= 14 and c < 24):
+    print("thoa man dieu kien")
+    
+if c > 2 and c <= 8:
+    print("thoa man dieu kien")
+elif c >=14 and c < 24:
+    print("thoa man dieu kien")
+else:
+    print("dieu kien khong thoa man")            

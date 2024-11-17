@@ -17,10 +17,3 @@ else:
 print("ket thuc")
 
 
-#bai1
-nam = float(input("Nhập năm nhuận:"))
-if nam > 0:
-    nam_nhuan = (nam % 4 == 0 and nam % 100 != 0) or (nam % 400 == 0)
-    print(f"nam do la nam nhuan")
-else:
-    print(f"ket thuc")
